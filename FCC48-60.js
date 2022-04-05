@@ -72,3 +72,61 @@ function processArg(num) {
 
 // Only change code below this line
 processed = processArg(7);
+
+
+
+function welcomeToBooleans() {
+  // Only change code below this line
+
+  return true; // Change this line
+
+  // Only change code above this line
+}
+
+
+
+function trueOrFalse(wasThatTrue) {
+  // Only change code below this line
+if(wasThatTrue) {
+  return "Yes, that was true";
+}
+return "No, that was false";
+trueOrFalse(true);
+trueOrFalse(false);
+  // Only change code above this line
+
+}
+
+
+function trueOrFalse(wasThatTrue) {
+  // Only change code below this line
+if(wasThatTrue) {
+  return "Yes, that was true";
+}
+return "No, that was false";
+trueOrFalse(true);
+trueOrFalse(false);
+  // Only change code above this line
+
+}
+
+
+function testStrict(val) {
+  if (val===7) { // Change this line
+    return "Equal";
+  }
+  return "Not Equal";
+}
+
+testStrict(10);
+
+
+
+function compareEquality(a, b) {
+  if (a === b) { // Change this line
+    return "Equal";
+  }
+  return "Not Equal";
+}
+
+compareEquality(10, "10");
